@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Data Scientist
+role: ML Engineer / Data Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -46,60 +46,59 @@ interests:
   - Computer Vision
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: M.Sc. Mathematics in Data Science
+    institution: Technical University of Munich (TUM)
+    date_start: 2021-10-01
+    date_end: 2024-10-16
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      German Grade: 1.6
+      Thesis on _Trajectory Prediction using Denoising Diffusion Models_. Supervised by [Prof. Stephan Günnemann](https://www.cs.cit.tum.de/daml/guennemann/)
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      url: 'uploads/Master's Thesis'
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
+      - Machine Learning for Graphs and Sequential Data
+      - Business Analytics and Machine Learning
+      - Application and Implementation of Database Systems
+  - area: B.Scs Engineering Science
     institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2018-10-01
+    date_end: 2021-09-13
     summary: |
-      GPA: 3.4/4.0
+      German Grade: 2.1
+      Thesis on _Availability Analysis of Optical Sensors using Autonomous Driving Data_. Supervised by [Prof. Markus Lienkamp](https://www.mos.ed.tum.de/ftm/personen/mitarbeiter/prof-dr-ing-markus-lienkamp-lebenslauf/)
+    button:
+      text: 'Read Thesis'
+      url: 'uploads/Bachelor's Thesis'
       
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Embedded Systems
+      - Fundamentals of Databases
+      - Introduction to Computer Networking and Distributed Systems
+#work:
+#  - position: Director of Cloud Infrastructure
+#    company_name: GenCoin
+#    company_url: ''
+#    company_logo: ''
+#    date_start: 2021-01-01
+#    date_end: ''
+#    summary: |2-
+#      Responsibilities include:
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#  - position: Backend Software Engineer
+#    company_name: X
+#    company_url: ''
+#    company_logo: ''
+#    date_start: 2016-01-01
+#    date_end: 2020-12-31
+#    summary: |
+#      Responsibilities include:
+#      - Migrated infrastructure to a new data center
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -107,74 +106,83 @@ skills:
   - name: Technical Skills
     items:
       - name: Python
+        description: 'PyTorch, scikit-learn, OpenCV, numpy, pandas, plotly'
+        percent: 100
+        icon: code-bracket
+      - name: R
+        description: 'tidyverse, XGBoost'
+        percent: 100
+        icon: code-bracket
+      - name: SQL
+        description: 'MySQL'
+        percent: 100
+        icon: circle-stack
+      - name: C++
+        description: ''
+        percent: 50
+        icon: code-bracket
+      - name: AWS Sagemaker
         description: ''
         percent: 80
-        icon: code-bracket
-      - name: Data Science
+        icon: cloud
+      - name: Azure
+        description: ''
+        percent: 80
+        icon: cloud
+      - name: Spark
+        description: ''
+        percent: 80
+        icon: cloud
+      - name: Tableau
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
+      - name: Running
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: person-running
+      - name: Swimming
         description: ''
         percent: 80
-        icon: camera
+        icon: person-swimming
+      - name: Cycling
+        description: ''
+        percent: 80
+        icon: person-biking
+      - name: Hiking
+        description: ''
+        percent: 80
+        icon: person-hiking
+      - name: Skiing
+        description: ''
+        percent: 80
+        icon: person-skiing
+      - name: Cooking
+        description: 'Asian Food'
+        percent: 80
+        icon: utensils
 
 languages:
-  - name: English
+  - name: German
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: English
+    percent: 90
+  - name: French
+    percent: 90
+  - name: Italian
+    percent: 50
+  - name: Luxembourgish
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
----
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+My name is Joe Schmit, and I just completed my Master's degree in Mathematics in Data Science at TUM.
